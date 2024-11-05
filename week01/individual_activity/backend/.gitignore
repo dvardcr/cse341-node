@@ -1,5 +1,0 @@
-# Ignore specific directories
-
-**/backend-solution
-**/testing
-node_modules
