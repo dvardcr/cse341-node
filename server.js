@@ -1,8 +1,11 @@
 // express web server
 
 const express = require('express');
+const dotenv = require("dotenv")
 const app = express();
 const port = 3000;
+
+dotenv.config()
 
 app.use('/', require('./routes'));
 
